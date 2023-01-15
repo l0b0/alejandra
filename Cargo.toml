@@ -5,4 +5,7 @@ lto = true
 opt-level = 2
 
 [workspace]
-members = ["src/*"]
+members = [
+    "src/alejandra",
+    "src/alejandra_cli",
+]
